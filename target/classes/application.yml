@@ -3,7 +3,11 @@ spring:
     #static-path-pattern: /res/**
   resources:
     static-locations: [ classpath:/haha/ ]
+    cache:
+      period: 10000
   mvc:
     hiddenmethod:
       filter:
         enabled: true
+    static-path-pattern: /res/**
+
