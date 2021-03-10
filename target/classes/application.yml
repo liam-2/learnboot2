@@ -9,5 +9,5 @@ spring:
     hiddenmethod:
       filter:
         enabled: true
-    static-path-pattern: /res/**
+    #static-path-pattern: /res/**
 
