@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.atiguigu.boot.bean.Person",
+      "sourceType": "com.atiguigu.boot.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atiguigu.boot.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.atiguigu.boot.bean.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.atiguigu.boot.bean.Pet",
+      "sourceType": "com.atiguigu.boot.bean.Person"
+    },
+    {
+      "name": "person.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.atiguigu.boot.bean.Person"
+    }
+  ],
+  "hints": []
+}

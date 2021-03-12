@@ -2,6 +2,7 @@ package com.atiguigu.boot.controller;
 
 
 
+import com.atiguigu.boot.bean.Person;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -10,6 +11,13 @@ import java.util.Map;
 
 @RestController
 public class ParameterTestController {
+
+
+   @PostMapping("/saveuser")
+   public Person saveuser(Person person){
+       return person;
+   }
+
 
     //  car/2/owner/zhangsan
     @GetMapping("/car/{id}/owner/{username}")
