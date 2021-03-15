@@ -2,12 +2,14 @@ spring:
   #mvc:
     #static-path-pattern: /res/**
   resources:
-    static-locations: [ classpath:/haha/ ]
+    #static-locations: [ classpath:/haha/ ]
     cache:
       period: 10000
   mvc:
     hiddenmethod:
       filter:
         enabled: true
+    contentnegotiation:
+      favor-parameter: true
     #static-path-pattern: /res/**
 
